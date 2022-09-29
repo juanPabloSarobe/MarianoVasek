@@ -3,72 +3,47 @@
     padding: 0;
 }
 
-
-header {
+.background-nav {
     background-color: white;
     color: blue;
     font-size: 20px;
+    border: solid rgb(118, 119, 130) 2px;
+}
+
+.nav-link {
+    text-decoration: none;
+
+}
+
+.img-logo {
+    width: 100px;
+}
+
+
+.collapse {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    border: solid rgb(118, 119, 130) 2px
 }
 
-.secciongeneral {
-    display: flex;
-    flex-direction: row;
-}
-
-.logoempresa {
-    height: 60px;
-    padding-right: 80px;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-a {
-    padding: 30px;
+.navcofig a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 20px;
     color: rgb(50, 64, 92);
     font-weight: bold;
-
 }
 
 
 
-.iconosredes {
-    display: flex;
-}
 
-.logoinsta {
-    width: 30px;
-    height: 30px;
-    padding-left: 80px;
-
-}
-
-.logoface {
-    width: 30px;
-    height: 30px;
-}
-
-
+/* Parte inferior del header*/
 
 .seccion1 {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    border: solid rgb(233, 97, 69) 2px;
+    border: solid rgb(118, 119, 130) 2px;
 }
 
 .localizacion {
@@ -97,54 +72,69 @@ a {
     color: rgb(50, 64, 92);
 }
 
+/* Termino el header */
 
+/* Comienza el main*/
 
-/*Finalizo la barra inferior del header*/
-
-/*Continua el main*/
-
-.fotoemp {
-    display: flex;
-    justify-content: center;
-}
-
-.fotoemp img {
-    width: 60%;
-
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
+.h1p {
+    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 35px;
     color: rgb(50, 64, 92);
-    border: solid rgb(233, 97, 69) 2px;
+    border: solid rgb(233, 97, 69) 4px;
 }
 
-.imgh1 img {
-    width: 23%;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    padding-left: 20px;
+.imgh1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 15px;
 }
 
-h2 {
-    display: flex;
-    justify-content: center;
+.h2p {
+    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 35px;
     color: rgb(50, 64, 92);
-    border: solid rgb(233, 97, 69) 2px;
-    margin-top: 30px;
+    border: solid rgb(233, 97, 69) 4px;
 }
 
-.imgfin {
-    width: 40%;
-    padding-left: 370px;
+.imgh2 {
+    text-align: center;
 }
+
+.gralp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: rgb(50, 64, 92);
+    border: solid rgb(233, 97, 69) 4px;
+    margin-top: 20px;
+}
+
+.loremp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.loremp p {
+    border: solid rgb(50, 64, 92) 2px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* Termino el main*/
 
 
 /*Tipos de construcciones*/
@@ -264,104 +254,117 @@ footer img {
 /*TIPOLOGIAS*/
 
 
-.tipologias {
+.listtipo a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 64, 92);
+}
+
+.list-inline {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    padding: 20px;
     margin-top: 50px;
     border: solid rgb(118, 119, 130) 2px;
+    font-size: 20px;
+    text-decoration: none;
+}
 
+.vindu a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 64, 92);
 }
 
 
-.divtitulo {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    padding-left: 50px;
-
-}
-
-.industrializadas {
-    border: solid rgb(118, 119, 130) 2px;
-}
-
-.loremindu {
-    border: solid rgb(118, 119, 130) 2px;
-    margin-top: 50px;
-}
-
-.imgmontemaiz {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.imgmontemaiz img {
-    width: 30%;
-    padding: 15px;
-
-}
-
-
-.minimalista {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    padding-left: 50px;
-}
-
-.titulomini {
-    border: solid rgb(118, 119, 130) 2px;
-    margin-top: 50px;
-}
-
-
-.imgminimalista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.imgminimalista img {
-    width: 40%;
-    padding: 50px;
-}
-
-
-
-.loremmini {
+.vindu {
     text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
     border: solid rgb(118, 119, 130) 2px;
-    margin-top: 50px;
 }
 
-.titulocomplejo {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    padding-left: 50px;
+.pindu {
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: solid rgb(118, 119, 130) 1px;
 }
 
-.complejosturisticos {
-    border: solid rgb(118, 119, 130) 2px;
-    margin-top: 50px;
-}
-
-.loremcomplejo {
-
-    border: solid rgb(118, 119, 130) 2px;
-    margin-top: 50px;
-}
-
-.imgcomplejo img {
-    width: 23%;
-    flex-wrap: wrap;
+.ordenindu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 9px;
+    grid-row-gap: 10px;
     margin-top: 10px;
-    padding-left: 20px;
 }
+
+.vimin a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 64, 92);
+}
+
+.vimin {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: solid rgb(118, 119, 130) 2px;
+    margin-top: 15px;
+}
+
+.pmin {
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: solid rgb(118, 119, 130) 1px;
+}
+
+.ordenmin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 9px;
+    grid-row-gap: 10px;
+    margin-top: 10px;
+}
+
+
+.vict a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 64, 92);
+}
+
+.vict {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: solid rgb(118, 119, 130) 2px;
+    margin-top: 15px;
+}
+
+.pct {
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: solid rgb(118, 119, 130) 1px;
+}
+
+.ordenct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
 
 /*FINALIZO TIPOLOGIAS*/
 
@@ -420,17 +423,6 @@ footer img {
 }
 
 
-/*.entregamariarosa {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.entregamariarosa img {
-    width: 30%;
-    padding: 5px;
-}*/
 
 .sergio {
     display: flex;
@@ -467,20 +459,8 @@ footer img {
     margin-bottom: 30px;
 }
 
-
-/*.entregasergio {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.entregasergio img {
-    width: 30%;
-    padding: 5px;
-}*/
-
 /*FINALIZO ENTREGAS*/
+
 
 /* CONTINUA EMPRESA */
 
@@ -537,16 +517,7 @@ footer img {
     margin-top: 15px;
 }
 
-/*.imagenesdeempresa {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
 
-.imagenesdeempresa img {
-    width: 30%;
-}*/
 
 .fab {
     display: flex;
@@ -588,21 +559,6 @@ footer img {
     -moz-box-shadow: -15px 11px 65px 0px rgba(0, 0, 0, 0.75);
 
 }
-
-
-
-/*.imgdefabrica {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.imgdefabrica img {
-    width: 40%;
-    padding: 10px;
-}*/
-
 
 /*TERMINO EMPRESA*/
 
@@ -653,12 +609,275 @@ footer img {
 .iframe {
     display: flex;
     justify-content: center;
-    padding: 50px;}
+    padding: 50px;
+}
 
 
 
+/* MEDIA QUERY MOBILE*/
+
+@media only screen and (max-width:450px) {
+
+    /* media del header*/
+
+    .localizacion img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .telefono img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .seccion1 p {
+        font-size: 10px;
+    }
+
+    /* media del main*/
+
+    .h1p p {
+        font-size: 15px;
+    }
+
+    .h2p p {
+        font-size: 15px;
+    }
+
+    .gralp p {
+        font-size: 15px;
+    }
+
+    .loremp p {
+        font-size: 10px;
+    }
+
+    /*Media query tipologias*/
+    .list-inline {
+        font-size: 14px;
+    }
+
+    .vindu {
+        font-size: 14px;
+    }
+
+    .pindu {
+        font-size: 10px;
+    }
+
+    .ordenindu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vimin {
+        font-size: 14px;
+    }
+
+    .pmin {
+        font-size: 10px;
+    }
+
+    .ordenmin {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vict {
+        font-size: 14px;
+    }
+
+    .pct {
+        font-size: 10px;
+    }
+
+    .ordenct {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    /* Termino media query de tipologias*/
+
+    /* Termino la media del main*/
+
+    /* Media del footer */
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .solologo {
+        height: 30px;
+        width: 90px;
+    }
+
+    /* Termino media footer*/
+
+}
+
+/* MEDIA QUERY TABLET*/
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+
+    .localizacion img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .telefono img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .seccion1 p {
+        font-size: 12px;
+    }
+
+    /* media del main*/
+
+    .h1p p {
+        font-size: 18px;
+    }
+
+    .h2p p {
+        font-size: 18px;
+    }
+
+    .gralp p {
+        font-size: 18px;
+    }
+
+    .loremp p {
+        font-size: 12px;
+    }
 
 
+    /* Media Query tablet Tipologias*/
 
+    .list-inline {
+        font-size: 14px;
+    }
+
+    .vindu {
+        font-size: 16px;
+    }
+
+    .pindu {
+        font-size: 13px;
+    }
+
+    .ordenindu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vimin {
+        font-size: 16px;
+    }
+
+    .pmin {
+        font-size: 13px;
+    }
+
+    .ordenmin {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vict {
+        font-size: 16px;
+    }
+
+    .pct {
+        font-size: 13px;
+    }
+
+    .ordenct {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    /* Termino Media Query de Tipologias*/
+
+    /* Termino la media del main*/
+
+    /* Media del footer */
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .solologo {
+        height: 45px;
+        width: 105px;
+    }
+
+    /* Termino media footer*/
+}
+
+/*Transformaciones y Transiciones*/
+
+.h1p:hover {
+    transform: scale(1.5);
+    transition: all 1s linear;
+}
+
+.h2p:hover {
+    transform: scale(1.5);
+    transition: all 1s linear;
+}
+
+.gralp:hover {
+    transform: scale(1.5);
+    transition: all 1s linear;
+}
+
+.navbar a:hover {
+    color: rgb(233, 97, 69);
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.vindu:hover{
+    transform: scale(1.5);
+    transition: all 1.5 ease-in;
+}
+
+.vimin:hover{
+    transform: scale(1.5);
+    transition: all 1.5 ease-in;
+}
+
+.vict:hover{
+    transform: scale(1.5);
+    transition: all 1.5 ease-in;
+}
 
 

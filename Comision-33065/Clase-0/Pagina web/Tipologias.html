@@ -5,36 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GrupoD4</title>
-    <link rel="shortcut icon" href="Logo/logo grupod4.ico" type="image/x-icon">
+    <!--CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Logo/logo grupod4.ico" type="image/x-icon">
+    <title>GrupoD4</title>
+
 </head>
 
 <body>
     <header>
-        <!-- Aca esta el header que va en todas las paginas de la web-->
-        <section class="secciongeneral">
-            <div>
-                <img class="logoempresa" src="Logo/logo-grupod4.png" alt="Logo de la empresa">
+        <nav class="navbar navbar-expand-lg background-nav">
+            <div class="container-fluid">
+                <img class="img-logo" src="logo/logo-grupod4.png" alt="Logo de la Empresa">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav navcofig">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="Tipologias.html">Tipologias</a>
+                        <a class="nav-link" href="Entregas.html">Entregas</a>
+                        <a class="nav-link" href="Empresa.html">Empresa</a>
+                        <a class="nav-link" href="Contacto.html">Contacto</a>
+                    </div>
+                </div>
             </div>
-            <nav class="navegador">
-                <ul class="listao">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Tipologias.html">Tipologias</a></li>
-                    <li><a href="Entregas.html">Entregas</a></li>
-                    <li><a href="Empresa.html">Empresa</a></li>
-                    <li><a href="Contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-
-            <div class="iconosredes">
-                <a href="https://www.instagram.com/grupod4ok/" target="_blank">
-                    <img class="logoinsta" src="Logo/logo de instagram.png" alt="Logo de instagram"></a>
-                <a href="https://www.facebook.com/grupod4ok" target="_blank">
-                    <img class="logoface" src="logo/logo de facebook.png" alt=" Logo de faceobook"></a>
-            </div>
-        </section>
-
+        </nav>
 
         <section class="seccion1">
             <div class="localizacion">
@@ -47,89 +47,78 @@
                 <img src="logo/whatsapp.ico" alt="whatsapp">
                 <p>3518103232</p>
             </div>
-
         </section>
 
     </header>
 
     <main>
-        <section>
-            <!-- Esta es la seccion con la lista de los 3 menus de la pagina-->
-            <div>
-                <li class="tipologias">
-                    <ol><a href="#Industrializadas"> Industrializadas</a></ol>
-                    <ol><a href="#Minimalistas"> Viviendas Minimalistas</a></ol>
-                    <ol><a href="#Complejos Turisticos"> Complejos Turisticos</a></ol>
-                </li>
-            </div>
-        </section>
-        <section>
-            <!-- Esta seccion es solo de Industrializadas-->
-            <div class="divtitulo">
-                <a class="industrializadas" name="Industrializadas"> Viviendas Industrializadas</a>
-                <!--Enlace interno Industrializadas-->
-            </div>
 
-            <div class="loremindu">
-                <!-- Especificacion sobre viviendas industrializadas-->
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium alias error vel, neque
-                    necessitatibus a omnis at maiores, eligendi hic doloremque. Placeat obcaecati id ducimus esse iure
-                    cum
-                    dolore. Dicta.</p>
-            </div>
+        <div class="listtipo">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#Industrializadas"> Industrializadas</a></li>
+                <li class="list-inline-item"><a href="#Minimalistas"> Viviendas Minimalistas</a></li>
+                <li class="list-inline-item"><a href="#Complejos Turisticos"> Complejos Turisticos</a></li>
+            </ul>
+        </div>
 
-            
-            <div class="imgmontemaiz">
-                <img src="Imagenes/Monte Maiz/2m.jpeg" alt="Foto vivienda Monte Maiz2">
-                <img src="Imagenes/Huerta Grande/1h.jpeg" alt="Foto vivienda Huerta Grande">
-                <img src="Imagenes/Huerta Grande/2h.jpeg" alt="Foto de vivienda Huerta Grande">
-            </div>
+        <div class="vindu">
+            <a class="Industrializadas" name="Industrializadas">Viviendas Industrializadas</a>
+        </div>
 
-        </section>
-        <section>
-            <!-- Esta seccion solo es de Minimalistas-->
-            <div class="minimalista">
-                <a class="titulomini" name="Minimalistas"> Viviendas Minimalistas </a>
-                <!--Enlace interno Minimalistas-->
-            </div>
-            <div class="loremmini">
-                <!-- Este lorem es para especificacion de viviendas Minimalistas-->
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas amet labore minus laudantium ea
-                    repellendus, velit quae eligendi necessitatibus illo, fuga soluta molestiae facere quos autem nobis
-                    excepturi pariatur corrupti.
-                </p>
-            </div>
+        <div class="pindu">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero provident atque consequatur nam?
+                Possimus, eaque. Delectus distinctio, dicta dolore nemo maxime deleniti obcaecati aperiam, perspiciatis
+                fuga libero ipsam. Aliquam, inventore.
+            </p>
+        </div>
 
-            <div class="imgminimalista">
-                <img src="Imagenes/Minimalista/Minimalista1.jpeg" alt="Imagen Vivienda Minimalista">
-                <img src="Imagenes/Minimalista/Render vivienda minimalista.png" alt="Render vivienda Minimalista">
-            </div>
+        <div class="ordenindu">
+            <img src="Imagenes/Monte Maiz/2m.jpeg" class="img-fluid" alt="foto de monte maiz">
+            <img src="Imagenes/Huerta Grande/1h.jpeg" class="img-fluid" alt="foto de huerta grande1">
+            <img src="Imagenes/Huerta Grande/2h.jpeg" class="img-fluid" alt="foto de huerta grande2">
+        </div>
 
-        </section>
-        <section>
-            <div class="titulocomplejo">
-                <!--Enlace interno Complejo de Cabañas-->
-                <a class="complejosturisticos" name="Complejos Turisticos"> Viviendas en Complejos Turisticos</a>
-            </div>
-            <div class="loremcomplejo">
-                <!-- Especifiaciones sobre complejos de cabañas-->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor obcaecati debitis nesciunt quos
-                    non totam officia molestiae ipsa sunt! Maiores, iste. Nostrum autem ab distinctio temporibus
-                    repudiandae et nihil!</p>
-            </div>
+        <div class="vimin">
+            <a class="Minimalistas" name="Minimalistas"> Minimalistas</a>
+        </div>
 
-            <div class="imgcomplejo">
+        <div class="pmin">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore deleniti exercitationem explicabo cum
+                repudiandae. Nemo blanditiis consequuntur fuga, delectus ut consequatur. Eveniet, ea ut animi delectus
+                nam nisi et debitis!
+            </p>
+        </div>
 
-                <img src="Imagenes/Monte Maiz/Complejo5.jpeg" alt="Foto Platea">
-                <img src="Imagenes/Monte Maiz/Foto de Entrega1.jpeg" alt="Foto de vivienda con llave">
-                <img src="Imagenes/Monte Maiz/Foto de entrega 2.jpeg" alt="Foto de vivienda con entrega de llave">
-                <img src="Imagenes/Monte Maiz/Complejo3.jpeg" alt="Foto de viviendas">
-            </div>
+        <div class="ordenmin">
+            <img src="Imagenes/Minimalista/Minimalista1.jpeg" class="img-fluid" alt="minimalistas1">
+            <img src="Imagenes/Minimalista/Render vivienda minimalista.png" class="img-fluid" alt="minimalistas2">
+        </div>
 
-        </section>
+        <div class="vict">
+            <a class="Complejos Turisticos" name="Complejos Turisticos"> Complejos Turisticos</a>
+        </div>
+
+        <div class="pct">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint ut aspernatur quibusdam nemo ipsum
+                distinctio, aliquid facilis. Est tenetur fugiat atque provident assumenda corporis exercitationem
+                delectus error ratione id.
+            </p>
+        </div>
+
+        <div class="ordenct">
+            <img src="Imagenes/Monte Maiz/Complejo5.jpeg" class="img-fluid" alt="img-fluid">
+            <img src="Imagenes/Monte Maiz/Foto de entrega 2.jpeg" class="img-fluid" alt="img-fluid">
+            <img src="Imagenes/Monte Maiz/Foto de Entrega1.jpeg" class="img-fluid" alt="img-fluid">
+            <img src="Imagenes/Monte Maiz/WhatsApp Image 2022-08-26 at 20.44.02 (3).jpeg" class="img-fluid"
+                alt="img-fluid">
+
+        </div>
+
     </main>
-    <!-- FOOTER-->
+
     <footer>
         <div class="columnauno">
 
@@ -176,16 +165,24 @@
                 <p>Administraciongrupod4@gmail.com</p>
             </div>
         </div>
-
     </footer>
 
 
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
 </body>
 
-
-
-
-
-
-
 </html>
+
+
+
+</body>
