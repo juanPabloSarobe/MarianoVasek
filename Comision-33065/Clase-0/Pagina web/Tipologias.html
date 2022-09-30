@@ -10,6 +10,7 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Logo/logo grupod4.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>GrupoD4</title>
 
 </head>
@@ -67,16 +68,22 @@
 
         <div class="pindu">
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero provident atque consequatur nam?
-                Possimus, eaque. Delectus distinctio, dicta dolore nemo maxime deleniti obcaecati aperiam, perspiciatis
-                fuga libero ipsam. Aliquam, inventore.
+                Se trata de un sistema constructivo novedoso, que aprovecha los avances de la tecnología para elaborar
+                en una fábrica todos los componentes estructurales de forma automatizada. Posteriormente, se trasladan
+                para su ensamblaje a la zona donde se ubica el edificio
             </p>
         </div>
 
         <div class="ordenindu">
-            <img src="Imagenes/Monte Maiz/2m.jpeg" class="img-fluid" alt="foto de monte maiz">
-            <img src="Imagenes/Huerta Grande/1h.jpeg" class="img-fluid" alt="foto de huerta grande1">
-            <img src="Imagenes/Huerta Grande/2h.jpeg" class="img-fluid" alt="foto de huerta grande2">
+            <div class="z1" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1500">
+                <img src="Imagenes/Monte Maiz/2m.jpeg" class="img-fluid" alt="foto de monte maiz">
+            </div>
+            <div class="z2" data-aos="zoom-in" data-aos-delay="200">
+                <img src="Imagenes/Huerta Grande/1h.jpeg" class="img-fluid" alt="foto de huerta grande1">
+            </div>
+            <div class="z3" data-aos="zoom-in" data-aos-delay="100"> <img src="Imagenes/Huerta Grande/2h.jpeg"
+                    class="img-fluid" alt="foto de huerta grande2">
+            </div>
         </div>
 
         <div class="vimin">
@@ -85,13 +92,13 @@
 
         <div class="pmin">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore deleniti exercitationem explicabo cum
-                repudiandae. Nemo blanditiis consequuntur fuga, delectus ut consequatur. Eveniet, ea ut animi delectus
-                nam nisi et debitis!
+                En la arquitectura minimalista se juega con formas simples y ligeras, escaleras suspendidas, materiales
+                nobles y pocos elementos. No faltan las estructuras limpias y formas geométricas sin ornamentos así como
+                el cristal y los grandes ventanales que conectan con el exterior.
             </p>
         </div>
 
-        <div class="ordenmin">
+        <div class="ordenmin" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1500">
             <img src="Imagenes/Minimalista/Minimalista1.jpeg" class="img-fluid" alt="minimalistas1">
             <img src="Imagenes/Minimalista/Render vivienda minimalista.png" class="img-fluid" alt="minimalistas2">
         </div>
@@ -102,13 +109,13 @@
 
         <div class="pct">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint ut aspernatur quibusdam nemo ipsum
-                distinctio, aliquid facilis. Est tenetur fugiat atque provident assumenda corporis exercitationem
-                delectus error ratione id.
+                Construccion tanto industrializada como minimalista es una buena posibilidad para construir tu proximo
+                complejo turistico. Elegi el mejor diseño de acuerdo al entorno y con nuestro asesoramiento tendras la
+                posibilidad de iniciar una inversion con un bajo costo para obtener una rentabilidad rapida.
             </p>
         </div>
 
-        <div class="ordenct">
+        <div class="ordenct" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <img src="Imagenes/Monte Maiz/Complejo5.jpeg" class="img-fluid" alt="img-fluid">
             <img src="Imagenes/Monte Maiz/Foto de entrega 2.jpeg" class="img-fluid" alt="img-fluid">
             <img src="Imagenes/Monte Maiz/Foto de Entrega1.jpeg" class="img-fluid" alt="img-fluid">
@@ -179,6 +186,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init()</script>
 </body>
 
 </html>
