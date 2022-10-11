@@ -11,3 +11,6 @@ www.weschool.com
 
 Extension Beatyfull para el format de la codificacion
 Prettier
+
+Error 404
+git config --global core.autocrlf false 
