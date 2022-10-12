@@ -1,0 +1,59 @@
+
+.h1section {
+.h1p {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: rgb(50, 64, 92);
+    border: solid rgb(233, 97, 69) 4px;
+}
+
+.imgh1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 15px;
+}
+}
+
+.h2section {
+    .h2p {
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-size: 35px;
+        color: rgb(50, 64, 92);
+        border: solid rgb(233, 97, 69) 4px;
+    }
+    
+    .imgh2 {
+        text-align: center;
+    }
+}
+
+.gralseccion {
+    .gralp {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-size: 35px;
+        color: rgb(50, 64, 92);
+        border: solid rgb(233, 97, 69) 4px;
+        margin-top: 20px;
+    }
+    
+    .loremp {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
+    
+    .loremp p {
+        border: solid rgb(50, 64, 92) 2px;
+        margin-top: 20px;
+    }
+}

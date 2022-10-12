@@ -1,0 +1,97 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid rgb(118, 119, 130) 2px;
+    background-color: rgb(248, 220, 168);
+
+    .columnauno {
+        display: flex;
+
+        flex-direction: column;
+
+        .todoslogos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .solologo {
+                height: 60px;
+                width: 180px;
+
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .alinearcont {
+            
+            .oficina {
+                display: flex;
+                flex-direction: row;
+                margin-top: 15px;
+            }
+
+            .fabrica {
+                display: flex;
+                flex-direction: row;
+                margin-top: 15px;
+            }
+            
+            
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-size: 12px;
+                color: rgb(50, 64, 92);
+            }
+            
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    
+    .columnados {
+        .tel {
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+        }
+        .ventas {
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+        }
+        .correo {
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 12px;
+            color: rgb(50, 64, 92);
+        }
+        
+        img {
+            width: 30px;
+            height: 30px;
+        }
+        
+    
+    }
+
+
+
+
+
+
+
+}
