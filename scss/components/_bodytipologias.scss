@@ -1,3 +1,4 @@
+@import '../base/mixin';
 .listtipo {
     a {
         text-decoration: none;
@@ -16,12 +17,8 @@
 }
 
 .vindu {
-    text-align: center;
-    margin-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    border: solid rgb(118, 119, 130) 2px;
-
+    @include mixtipo (center,50px,Arial Helvetica sans-serif,25px,rgb(118, 119, 130) 2px)
+    
     &:hover {
         transform: scale(1.5);
         transition: all 1.5 ease-in;
@@ -36,11 +33,8 @@
 }
 
 .pindu {
-    text-align: center;
-    margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    border: solid rgb(118, 119, 130) 1px;
+    @include mixtipo (center,25px,Arial Helvetica sans-serif,15px,rgb(118, 119, 130) 1px)
+   
 }
 
 .ordenindu {
@@ -53,13 +47,8 @@
 }
 
 .vimin {
-    text-align: center;
-    margin-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    border: solid rgb(118, 119, 130) 2px;
-    margin-top: 15px;
-
+    @include mixtipo (center,50px,Arial Helvetica sans-serif,25px,rgb(118, 119, 130) 2px)
+    
     &:hover {
         transform: scale(1.5);
         transition: all 1.5 ease-in;
@@ -73,11 +62,8 @@
 }
 
 .pmin {
-    text-align: center;
-    margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    border: solid rgb(118, 119, 130) 1px;
+    @include mixtipo (center,25px,Arial Helvetica sans-serif,15px,rgb(118, 119, 130) 1px)
+    
 }
 
 .ordenmin {
@@ -90,13 +76,8 @@
 }
 
 .vict {
-    text-align: center;
-    margin-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    border: solid rgb(118, 119, 130) 2px;
-    margin-top: 15px;
-
+    @include mixtipo (center,50px,Arial Helvetica sans-serif,25px,rgb(118, 119, 130) 2px)
+   
     &:hover {
         transform: scale(1.5);
         transition: all 1.5 ease-in;
@@ -110,11 +91,8 @@
 }
 
 .pct {
-    text-align: center;
-    margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    border: solid rgb(118, 119, 130) 1px;
+    @include mixtipo (center,25px,Arial Helvetica sans-serif,15px,rgb(118, 119, 130) 1px)
+    
 }
 
 .ordenct {

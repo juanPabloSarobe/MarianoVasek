@@ -1,26 +1,16 @@
-.tituloempresa {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    padding-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-size: 35px;
+@import '../base/mixin';
 
+.tituloempresa {
+    @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,35px)
+   
     p {
         border: solid rgb(118, 119, 130) 2px;
     }
 }
 
 .reseña {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    padding-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-size: 20px;
-
+    @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,20px)
+    ;
     p {
         border: solid rgb(118, 119, 130) 2px;
     }
@@ -51,14 +41,8 @@
 
 .fabricageneral {
     .fab {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        padding-left: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-size: 35px;
-
+        @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,35px)
+        
         p {
             border: solid rgb(118, 119, 130) 2px;
         }

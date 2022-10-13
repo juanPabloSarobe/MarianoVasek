@@ -3,7 +3,22 @@
     justify-content: center;
 }
 
-%flex2 {
+%flexfooter {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+%titulosindex {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: rgb(50, 64, 92);
+    border: solid rgb(233, 97, 69) 4px;
+}
+
+%imgfooter {
+    width: 30px;
+    height: 30px;
 }

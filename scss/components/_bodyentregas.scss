@@ -14,14 +14,8 @@
 
 .generalmariarosa {
     .mariarosa {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        padding-left: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-size: 20px;
-
+        @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,20px);
+        
         p {
             border: solid rgb(118, 119, 130) 2px;
         }
@@ -53,14 +47,8 @@
 
 .generalsergio {
     .sergio {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        padding-left: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-size: 20px;
-
+        @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,20px);
+       
         p {
             border: solid rgb(118, 119, 130) 2px;
         }
