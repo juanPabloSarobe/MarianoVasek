@@ -22,11 +22,17 @@
     font-size: 25px;
     border: solid rgb(118, 119, 130) 2px;
 
+    &:hover {
+        transform: scale(1.5);
+        transition: all 1.5 ease-in;
+    }
+
     a {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(50, 64, 92);
     }
+
 }
 
 .pindu {
@@ -53,6 +59,11 @@
     font-size: 25px;
     border: solid rgb(118, 119, 130) 2px;
     margin-top: 15px;
+
+    &:hover {
+        transform: scale(1.5);
+        transition: all 1.5 ease-in;
+    }
 
     a {
         text-decoration: none;
@@ -86,6 +97,11 @@
     border: solid rgb(118, 119, 130) 2px;
     margin-top: 15px;
 
+    &:hover {
+        transform: scale(1.5);
+        transition: all 1.5 ease-in;
+    }
+
     a {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
@@ -98,6 +114,7 @@
     margin-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    border: solid rgb(118, 119, 130) 1px;
 }
 
 .ordenct {

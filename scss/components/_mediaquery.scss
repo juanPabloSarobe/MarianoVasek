@@ -1,0 +1,147 @@
+@media only screen and (max-width:450px) {
+    .h1p p {
+        font-size: 15px;
+    }
+
+    .h2p p {
+        font-size: 15px;
+    }
+
+    .gralp p {
+        font-size: 15px;
+    }
+
+    .loremp p {
+        font-size: 10px;
+    }
+    // Termino el media del main
+    // Sigue el media de tipologias
+    .list-inline-item {
+        font-size: 14px;
+    }
+
+    .vindu {
+        font-size: 14px;
+    }
+
+    .pindu {
+        font-size: 10px;
+    }
+
+    .ordenindu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vimin {
+        font-size: 14px;
+    }
+
+    .pmin {
+        font-size: 10px;
+    }
+
+    .ordenmin {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vict {
+        font-size: 14px;
+    }
+
+    .pct {
+        font-size: 10px;
+    }
+
+    .ordenct {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+}
+
+// Media query de tablet
+
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+    .h1p p {
+        font-size: 18px;
+    }
+
+    .h2p p {
+        font-size: 18px;
+    }
+
+    .gralp p {
+        font-size: 18px;
+    }
+
+    .loremp p {
+        font-size: 12px;
+    }
+
+    // Termino el media del main
+    // Sigue el media de tipologias
+
+    .list-inline-item {
+        font-size: 14px;
+    }
+
+    .vindu {
+        font-size: 16px;
+    }
+
+    .pindu {
+        font-size: 13px;
+    }
+
+    .ordenindu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vimin {
+        font-size: 16px;
+    }
+
+    .pmin {
+        font-size: 13px;
+    }
+
+    .ordenmin {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .vict {
+        font-size: 16px;
+    }
+
+    .pct {
+        font-size: 13px;
+    }
+
+    .ordenct {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+
+}

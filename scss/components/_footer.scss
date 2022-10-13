@@ -7,7 +7,6 @@ footer {
 
     .columnauno {
         display: flex;
-
         flex-direction: column;
 
         .todoslogos {
@@ -18,7 +17,6 @@ footer {
             .solologo {
                 height: 60px;
                 width: 180px;
-
             }
 
             img {
@@ -28,7 +26,7 @@ footer {
         }
 
         .alinearcont {
-            
+
             .oficina {
                 display: flex;
                 flex-direction: row;
@@ -40,15 +38,14 @@ footer {
                 flex-direction: row;
                 margin-top: 15px;
             }
-            
-            
+
             p {
                 font-family: Arial, Helvetica, sans-serif;
                 font-style: normal;
                 font-size: 12px;
                 color: rgb(50, 64, 92);
             }
-            
+
             img {
                 width: 30px;
                 height: 30px;
@@ -56,42 +53,38 @@ footer {
         }
     }
 
-    
+
     .columnados {
         .tel {
             display: flex;
             flex-direction: row;
             margin-top: 15px;
         }
+
         .ventas {
             display: flex;
             flex-direction: row;
             margin-top: 15px;
         }
+
         .correo {
             display: flex;
             flex-direction: row;
             margin-top: 15px;
         }
+
         p {
             font-family: Arial, Helvetica, sans-serif;
             font-style: normal;
             font-size: 12px;
             color: rgb(50, 64, 92);
         }
-        
+
         img {
             width: 30px;
             height: 30px;
         }
-        
-    
+
+
     }
-
-
-
-
-
-
-
 }

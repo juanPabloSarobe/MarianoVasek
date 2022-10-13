@@ -20,6 +20,11 @@
   color: rgb(50, 64, 92);
   font-weight: bold;
 }
+.header .background-nav .navcofig a:hover {
+  color: rgb(233, 97, 69);
+  transform: scale(1.2);
+  transition: all 2s;
+}
 .header .seccion1 {
   display: flex;
   justify-content: space-between;
@@ -47,14 +52,44 @@
   font-size: 20px;
   color: rgb(50, 64, 92);
 }
+@media only screen and (max-width: 450px) {
+  .header .seccion1 .localizacion img {
+    width: 12px;
+    height: 12px;
+  }
+  .header .seccion1 .telefono img {
+    width: 12px;
+    height: 12px;
+  }
+  .header .seccion1 p {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .header .seccion1 .localizacion img {
+    width: 15px;
+    height: 15px;
+  }
+  .header .seccion1 .telefono img {
+    width: 14px;
+    height: 14px;
+  }
+  .header .seccion1 p {
+    font-size: 12px;
+  }
+}
 
-.h1section .h1p {
+.h1section .h1p .h1 {
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 35px;
   color: rgb(50, 64, 92);
   border: solid rgb(233, 97, 69) 4px;
+}
+.h1section .h1p .h1:hover {
+  transform: scale(1.5);
+  transition: all 1s linear;
 }
 .h1section .imgh1 {
   display: grid;
@@ -65,25 +100,33 @@
   margin-top: 15px;
 }
 
-.h2section .h2p {
+.h2section .h2p .h2 {
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 35px;
   color: rgb(50, 64, 92);
   border: solid rgb(233, 97, 69) 4px;
+}
+.h2section .h2p .h2:hover {
+  transform: scale(1.5);
+  transition: all 1s linear;
 }
 .h2section .imgh2 {
   text-align: center;
 }
 
-.gralseccion .gralp {
+.gralseccion .gralp .h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 35px;
   color: rgb(50, 64, 92);
   border: solid rgb(233, 97, 69) 4px;
   margin-top: 20px;
+}
+.gralseccion .gralp .h3:hover {
+  transform: scale(1.5);
+  transition: all 1s linear;
 }
 .gralseccion .loremp {
   display: grid;
@@ -188,6 +231,10 @@ footer .columnados img {
   font-size: 25px;
   border: solid rgb(118, 119, 130) 2px;
 }
+.vindu:hover {
+  transform: scale(1.5);
+  transition: all 1.5 ease-in;
+}
 .vindu a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -218,6 +265,10 @@ footer .columnados img {
   font-size: 25px;
   border: solid rgb(118, 119, 130) 2px;
   margin-top: 15px;
+}
+.vimin:hover {
+  transform: scale(1.5);
+  transition: all 1.5 ease-in;
 }
 .vimin a {
   text-decoration: none;
@@ -250,6 +301,10 @@ footer .columnados img {
   border: solid rgb(118, 119, 130) 2px;
   margin-top: 15px;
 }
+.vict:hover {
+  transform: scale(1.5);
+  transition: all 1.5 ease-in;
+}
 .vict a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -261,6 +316,7 @@ footer .columnados img {
   margin-top: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  border: solid rgb(118, 119, 130) 1px;
 }
 
 .ordenct {
@@ -470,6 +526,119 @@ footer .columnados img {
   display: flex;
   justify-content: center;
   padding: 50px;
+}
+
+@media only screen and (max-width: 450px) {
+  .h1p p {
+    font-size: 15px;
+  }
+  .h2p p {
+    font-size: 15px;
+  }
+  .gralp p {
+    font-size: 15px;
+  }
+  .loremp p {
+    font-size: 10px;
+  }
+  .list-inline-item {
+    font-size: 14px;
+  }
+  .vindu {
+    font-size: 14px;
+  }
+  .pindu {
+    font-size: 10px;
+  }
+  .ordenindu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .vimin {
+    font-size: 14px;
+  }
+  .pmin {
+    font-size: 10px;
+  }
+  .ordenmin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .vict {
+    font-size: 14px;
+  }
+  .pct {
+    font-size: 10px;
+  }
+  .ordenct {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .h1p p {
+    font-size: 18px;
+  }
+  .h2p p {
+    font-size: 18px;
+  }
+  .gralp p {
+    font-size: 18px;
+  }
+  .loremp p {
+    font-size: 12px;
+  }
+  .list-inline-item {
+    font-size: 14px;
+  }
+  .vindu {
+    font-size: 16px;
+  }
+  .pindu {
+    font-size: 13px;
+  }
+  .ordenindu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .vimin {
+    font-size: 16px;
+  }
+  .pmin {
+    font-size: 13px;
+  }
+  .ordenmin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .vict {
+    font-size: 16px;
+  }
+  .pct {
+    font-size: 13px;
+  }
+  .ordenct {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
