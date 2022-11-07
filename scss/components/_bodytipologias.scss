@@ -17,12 +17,12 @@
 }
 
 .vindu {
-    @include mixtipo (center,50px,Arial Helvetica sans-serif,25px,rgb(118, 119, 130) 2px)
+    @include mixtipo (center,50px,Arial Helvetica sans-serif,25px,rgb(118, 119, 130) 2px);
     
     &:hover {
         transform: scale(1.5);
-        transition: all 1.5 ease-in;
-    }
+        transition:all 1.5 ease-in;
+     }
 
     a {
         text-decoration: none;
@@ -47,7 +47,7 @@
 }
 
 .vimin {
-    @include mixtipo (center,50px,Arial Helvetica sans-serif,25px,rgb(118, 119, 130) 2px)
+    @include mixtipo (center,50px,Arial Helvetica sans-serif,25px,rgb(118, 119, 130) 2px);
     
     &:hover {
         transform: scale(1.5);
@@ -76,7 +76,7 @@
 }
 
 .vict {
-    @include mixtipo (center,50px,Arial Helvetica sans-serif,25px,rgb(118, 119, 130) 2px)
+    @include mixtipo (center,50px,Arial Helvetica sans-serif,25px,rgb(118, 119, 130) 2px);
    
     &:hover {
         transform: scale(1.5);

@@ -1,19 +1,19 @@
 @import '../base/mixin';
 
 .tituloempresa {
-    @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,35px)
+    @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,35px);
    
-    p {
-        border: solid rgb(118, 119, 130) 2px;
-    }
+    // p {
+    //     border: solid rgb(118, 119, 130) 2px;
+    // }
 }
 
 .reseña {
     @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,20px)
     ;
-    p {
-        border: solid rgb(118, 119, 130) 2px;
-    }
+    // p {
+    //     border: solid rgb(118, 119, 130) 2px;
+    // }
 }
 
 .loremempresa {
@@ -41,11 +41,11 @@
 
 .fabricageneral {
     .fab {
-        @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,35px)
+        @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,35px);
         
-        p {
-            border: solid rgb(118, 119, 130) 2px;
-        }
+        // p {
+        //     border: solid rgb(118, 119, 130) 2px;
+        // }
     }
 
     .loremfca {

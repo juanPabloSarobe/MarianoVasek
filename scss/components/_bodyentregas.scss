@@ -7,18 +7,18 @@
     font-style: normal;
     font-size: 35px;
 
-    p {
-        border: solid rgb(118, 119, 130) 2px;
-    }
+    // p {
+    //     border: solid rgb(118, 119, 130) 2px;
+    // }
 }
 
 .generalmariarosa {
     .mariarosa {
         @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,20px);
         
-        p {
-            border: solid rgb(118, 119, 130) 2px;
-        }
+        // p {
+        //     border: solid rgb(118, 119, 130) 2px;
+        // }
     }
 
     .entregamariarosa {
@@ -49,9 +49,9 @@
     .sergio {
         @include empresa (flex,center,50px,50px, Arial Helvetica sans-serif,normal,20px);
        
-        p {
-            border: solid rgb(118, 119, 130) 2px;
-        }
+        // p {
+        //     border: solid rgb(118, 119, 130) 2px;
+        // }
     }
 
     .entregasergio {
